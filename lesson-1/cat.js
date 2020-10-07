@@ -1,5 +1,6 @@
-const { readFile } = require('fs');
+#!/usr/bin/env node
 
+const { readFile } = require('fs');
 const fileToRead = process.argv[2];
 
 readFile(process.cwd() + '/' + fileToRead, (err, data) => {
