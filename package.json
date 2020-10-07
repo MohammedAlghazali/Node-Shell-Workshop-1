@@ -1,0 +1,25 @@
+{
+  "name": "Node-Shell-Workshop-1",
+  "version": "1.0.0",
+  "description": "**Author**: [@bradreeder](https://github.com/bradreeder)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedAlghazali/Node-Shell-Workshop-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedAlghazali/Node-Shell-Workshop-1/issues"
+  },
+  "homepage": "https://github.com/MohammedAlghazali/Node-Shell-Workshop-1#readme",
+  "preferGlobal": true,
+  "bin": {
+    "my-cat": "lesson-1/cat.js",
+    "my-ls": "lesson-1/ls.js",
+    "my-grep": "lesson-1/grep.js"
+  }
+}

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { readFile } = require('fs');
 const pattern = process.argv[2];
 const fileToRead = process.argv[3];
